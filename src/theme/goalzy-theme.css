@@ -1,0 +1,14 @@
+.goalzy-theme {
+  --app-background: #f6ffe8;
+  --app-background-strong: #d7f77a;
+  --app-brand: #78c80f;
+  --app-brand-dark: #245d0b;
+  --app-brand-light: #b9f42d;
+  --app-border: #d7e8b8;
+  --app-action: #2f7d12;
+  --app-surface: #ffffff;
+  --app-text: #173a0d;
+  --app-text-muted: #486238;
+  --app-shadow: 0 0.75rem 0 rgb(36 93 11 / 10%), 0 1.5rem 3rem rgb(36 93 11 / 15%);
+}
+

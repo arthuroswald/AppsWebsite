@@ -1,0 +1,55 @@
+.sports,
+.links {
+  margin: 0 auto;
+  max-width: var(--site-max-width);
+  padding: clamp(4rem, 9vw, 7rem) 1.5rem;
+}
+
+.sports h2,
+.links h2 {
+  font-family: var(--font-luckiest-guy), system-ui, sans-serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 400;
+  line-height: 1;
+  margin: 0;
+}
+
+.sports ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  list-style: none;
+  margin: 2rem 0 0;
+  padding: 0;
+}
+
+.sports li {
+  background: var(--app-surface);
+  border: 1px solid var(--app-border);
+  border-radius: 999px;
+  color: var(--app-text-muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 0.6rem 0.85rem;
+}
+
+.links { border-top: 1px solid var(--app-border); }
+.links > div { display: grid; gap: 1rem; grid-template-columns: repeat(2, 1fr); margin-top: 2rem; }
+
+.links a {
+  background: var(--app-action);
+  border-radius: var(--radius-medium);
+  color: #fff;
+  font-weight: 800;
+  padding: 1.25rem;
+  text-decoration: none;
+}
+
+.links a:hover { background: var(--app-brand-dark); }
+.links a:focus-visible { outline: 3px solid var(--app-brand-dark); outline-offset: 4px; }
+
+@media (max-width: 40rem) {
+  .sports,
+  .links { padding-inline: 1rem; }
+  .links > div { grid-template-columns: 1fr; }
+}

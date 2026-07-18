@@ -1,0 +1,15 @@
+:root {
+  --site-background: #f7f8f4;
+  --site-surface: #ffffff;
+  --site-text: #162016;
+  --site-text-muted: #5e695d;
+  --site-border: #dfe5db;
+  --site-accent: #335f3d;
+  --site-accent-strong: #23452b;
+  --site-max-width: 72rem;
+  --radius-small: 0.625rem;
+  --radius-medium: 1rem;
+  --radius-large: 1.5rem;
+  --shadow-card: 0 1rem 2.5rem rgb(31 57 34 / 10%);
+}
+

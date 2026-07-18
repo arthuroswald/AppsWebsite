@@ -1,0 +1,96 @@
+.page {
+  margin: 0 auto;
+  max-width: 51rem;
+  padding: clamp(3rem, 8vw, 6rem) 1.5rem;
+}
+
+.eyebrow {
+  color: var(--app-action);
+  font-size: 0.82rem;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  margin: 0 0 1.25rem;
+  text-transform: uppercase;
+}
+
+.hero h1,
+.policy h2 {
+  font-family: var(--font-luckiest-guy), system-ui, sans-serif;
+  font-weight: 400;
+}
+
+.hero h1 {
+  font-size: clamp(2.6rem, 6vw, 4.25rem);
+  line-height: 0.98;
+  margin: 0;
+  text-wrap: balance;
+}
+
+.introduction {
+  color: var(--app-text-muted);
+  font-size: 1.15rem;
+  line-height: 1.7;
+  margin: 1.5rem 0 0;
+}
+
+.updated {
+  background: var(--app-background-strong);
+  border-radius: 999px;
+  display: inline-block;
+  font-size: 0.875rem;
+  font-weight: 800;
+  margin: 1.5rem 0 0;
+  padding: 0.55rem 0.8rem;
+}
+
+.policy {
+  margin-top: clamp(4rem, 9vw, 6rem);
+}
+
+.policy section + section {
+  border-top: 1px solid var(--app-border);
+  margin-top: 2.5rem;
+  padding-top: 2.5rem;
+}
+
+.policy h2 {
+  font-size: clamp(1.65rem, 3.5vw, 2.2rem);
+  line-height: 1.1;
+  margin: 0 0 1rem;
+}
+
+.policy p {
+  color: var(--app-text-muted);
+  line-height: 1.75;
+  margin: 0.8rem 0 0;
+}
+
+.contact {
+  align-items: center;
+  background: var(--app-surface);
+  border: 1px solid var(--app-border);
+  border-radius: var(--radius-large);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  margin-top: 4rem;
+  padding: 1.25rem;
+}
+
+.contact a {
+  color: var(--app-action);
+  font-weight: 800;
+  overflow-wrap: anywhere;
+}
+
+.contact a:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--app-action) 35%, transparent);
+  outline-offset: 4px;
+}
+
+@media (max-width: 40rem) {
+  .page {
+    padding-inline: 1rem;
+  }
+}

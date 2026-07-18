@@ -1,0 +1,39 @@
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0 auto;
+  max-width: var(--site-max-width);
+  padding: 1.25rem 1.5rem 0;
+}
+
+.navigation a {
+  border-radius: 999px;
+  color: var(--app-text-muted);
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 0.55rem 0.8rem;
+  text-decoration: none;
+}
+
+.navigation a[aria-current="page"] {
+  background: var(--app-text);
+  color: #fff;
+}
+
+.navigation a:not([aria-current="page"]):hover {
+  background: color-mix(in srgb, var(--app-brand) 12%, transparent);
+  color: var(--app-text);
+}
+
+.navigation a:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--app-action) 35%, transparent);
+  outline-offset: 2px;
+}
+
+@media (max-width: 40rem) {
+  .navigation {
+    padding-inline: 1rem;
+  }
+}
+

@@ -1,0 +1,68 @@
+.page {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.page main {
+  flex: 1;
+}
+
+.header {
+  background: color-mix(in srgb, var(--site-background) 90%, transparent);
+  border-bottom: 1px solid color-mix(in srgb, var(--site-border) 72%, transparent);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  backdrop-filter: blur(1rem);
+}
+
+.headerInner,
+.footerInner {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: var(--site-max-width);
+  padding: 1rem 1.5rem;
+}
+
+.brand {
+  align-items: center;
+  color: var(--site-text);
+  display: inline-flex;
+  font-weight: 800;
+  gap: 0.7rem;
+  letter-spacing: -0.02em;
+  text-decoration: none;
+}
+
+.brand:focus-visible {
+  border-radius: 0.5rem;
+  outline: 3px solid color-mix(in srgb, var(--site-accent) 35%, transparent);
+  outline-offset: 4px;
+}
+
+.footer {
+  border-top: 1px solid var(--site-border);
+  color: var(--site-text-muted);
+  font-size: 0.875rem;
+}
+
+.footerInner {
+  gap: 1rem;
+  justify-content: flex-end;
+  padding-block: 2rem;
+}
+
+.footerInner p {
+  margin: 0;
+}
+
+@media (max-width: 40rem) {
+  .headerInner,
+  .footerInner {
+    padding-inline: 1rem;
+  }
+
+}

@@ -1,0 +1,7 @@
+.page {
+  background: var(--app-background);
+  color: var(--app-text);
+  min-height: 100%;
+  overflow: hidden;
+}
+
