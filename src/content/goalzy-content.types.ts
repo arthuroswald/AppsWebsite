@@ -15,6 +15,7 @@ export type GoalzyMarketingCopy = MetadataCopy & {
   eyebrow: string;
   heading: string;
   introduction: string;
+  appStoreAction: string;
   stepsHeading: string;
   steps: readonly ContentItem[];
   modesHeading: string;
@@ -52,4 +53,3 @@ export type GoalzyPrivacyCopy = MetadataCopy & {
   updatedDate: string;
   sections: readonly PrivacySection[];
 };
-

@@ -10,25 +10,29 @@ export const goalzyPrivacyContent = {
     heading: "Your choices stay yours.",
     introduction: "Goalzy is designed to work without an account, advertising, analytics, or personal-data collection.",
     updatedLabel: "Last updated",
-    updatedDate: "July 18, 2026",
+    updatedDate: "July 29, 2026",
     sections: [
       {
         title: "Information Goalzy collects",
         paragraphs: [
-          "Goalzy does not collect, sell, share, or transmit personal data. It does not use analytics, advertising, tracking technologies, or third-party accounts.",
-          "The names and emojis you enter are used only to run the current decision on your device. They are not sent to the developer or to an external service.",
+          "Goalzy does not collect or receive personal data from the app. It does not use analytics, advertising, tracking technologies, or third-party accounts.",
+          "The names, emojis, colors, and results you create stay on your device. Goalzy does not send them to its developers or to a server.",
         ],
       },
       {
         title: "Information stored on your device",
         paragraphs: [
-          "Goalzy stores your selected language and your sound and vibration preferences locally on your device. This functional storage lets the app remember your settings.",
+          "Goalzy stores your selected language, sound and vibration preferences, and app-review request timing locally on your device. This functional storage lets the app remember your settings and avoid excessive review requests.",
+          "Completed decisions are also saved in a local history, including their choices, avatars, colors, mode, scores, winner, and completion date. Goalzy retains up to 1,000 results. You can delete an individual result or clear the full history from the app.",
           "Your latest choices may remain available while the app is running so you can start a new decision. Goalzy provides a reset action to clear them.",
         ],
       },
       {
         title: "Permissions and device features",
-        paragraphs: ["Goalzy may use audio output and supported haptic features to provide match feedback. It does not request microphone access and does not use these features to collect information."],
+        paragraphs: [
+          "Goalzy may use audio output and supported haptic features to provide match feedback. It does not request microphone access and does not use these features to collect information.",
+          "When you choose to share a result, Goalzy creates the image on your device and opens the system share sheet. The app or service you select may then process that image under its own privacy terms. Supported screenshot detection does not require access to your photo library.",
+        ],
       },
       {
         title: "This website",
@@ -43,7 +47,7 @@ export const goalzyPrivacyContent = {
       },
       {
         title: "Changes and contact",
-        paragraphs: [`This policy may be updated if Goalzy’s data practices change. For questions, contact ${supportEmail}. Goalzy is published by Arthur Oswald.`],
+        paragraphs: [`This policy may be updated if Goalzy’s data practices change. For questions, contact ${supportEmail}.`],
       },
     ],
   },
@@ -54,25 +58,29 @@ export const goalzyPrivacyContent = {
     heading: "Vos choix restent les vôtres.",
     introduction: "Goalzy est conçu pour fonctionner sans compte, publicité, analyse d’audience ni collecte de données personnelles.",
     updatedLabel: "Dernière mise à jour",
-    updatedDate: "18 juillet 2026",
+    updatedDate: "29 juillet 2026",
     sections: [
       {
         title: "Informations collectées par Goalzy",
         paragraphs: [
-          "Goalzy ne collecte, ne vend, ne partage et ne transmet aucune donnée personnelle. L’app n’utilise ni analyse d’audience, ni publicité, ni technologie de suivi, ni compte tiers.",
-          "Les noms et emojis saisis servent uniquement à exécuter la décision en cours sur votre appareil. Ils ne sont envoyés ni au développeur ni à un service externe.",
+          "Goalzy ne collecte et ne reçoit aucune donnée personnelle depuis l’app. L’app n’utilise ni analyse d’audience, ni publicité, ni technologie de suivi, ni compte tiers.",
+          "Les noms, emojis, couleurs et résultats que vous créez restent sur votre appareil. Goalzy ne les envoie ni à ses développeurs ni à un serveur.",
         ],
       },
       {
         title: "Informations stockées sur votre appareil",
         paragraphs: [
-          "Goalzy enregistre localement la langue sélectionnée ainsi que les préférences de son et de vibrations. Ce stockage fonctionnel permet à l’app de mémoriser vos réglages.",
+          "Goalzy enregistre localement la langue sélectionnée, les préférences de son et de vibrations ainsi que le calendrier des demandes d’avis. Ce stockage fonctionnel permet à l’app de mémoriser vos réglages et d’éviter les demandes d’avis excessives.",
+          "Les décisions terminées sont également enregistrées dans un historique local avec leurs choix, avatars, couleurs, mode, scores, gagnant et date. Goalzy conserve jusqu’à 1 000 résultats. Vous pouvez supprimer un résultat ou effacer tout l’historique depuis l’app.",
           "Vos derniers choix peuvent rester disponibles tant que l’app fonctionne afin de lancer une nouvelle décision. Une action de réinitialisation permet de les effacer.",
         ],
       },
       {
         title: "Autorisations et fonctions de l’appareil",
-        paragraphs: ["Goalzy peut utiliser la sortie audio et les fonctions haptiques compatibles pour accompagner les matchs. L’app ne demande pas l’accès au microphone et n’utilise pas ces fonctions pour collecter des informations."],
+        paragraphs: [
+          "Goalzy peut utiliser la sortie audio et les fonctions haptiques compatibles pour accompagner les matchs. L’app ne demande pas l’accès au microphone et n’utilise pas ces fonctions pour collecter des informations.",
+          "Lorsque vous choisissez de partager un résultat, Goalzy crée l’image sur votre appareil et ouvre le menu de partage du système. L’app ou le service que vous sélectionnez peut ensuite traiter cette image selon ses propres conditions de confidentialité. La détection compatible des captures d’écran ne nécessite pas l’accès à votre photothèque.",
+        ],
       },
       {
         title: "Ce site internet",
@@ -87,7 +95,7 @@ export const goalzyPrivacyContent = {
       },
       {
         title: "Modifications et contact",
-        paragraphs: [`Cette politique pourra être mise à jour si les pratiques de Goalzy évoluent. Pour toute question, contactez ${supportEmail}. Goalzy est édité par Arthur Oswald.`],
+        paragraphs: [`Cette politique pourra être mise à jour si les pratiques de Goalzy évoluent. Pour toute question, contactez ${supportEmail}.`],
       },
     ],
   },

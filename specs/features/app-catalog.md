@@ -23,5 +23,5 @@ Allow the site to add apps without duplicating its architecture.
 ## Acceptance Criteria
 
 - Goalzy is represented by one catalog entry.
+- Goalzy's catalog entry exposes its verified generic App Store URL.
 - A future app can reuse the shared screen contracts without changing Goalzy content.
-

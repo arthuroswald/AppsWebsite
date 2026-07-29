@@ -22,7 +22,7 @@ export function GoalzyPrivacyScreen({ locale }: GoalzyPrivacyScreenProps) {
           <p className={styles.eyebrow}>{copy.eyebrow}</p>
           <h1>{copy.heading}</h1>
           <p className={styles.introduction}>{copy.introduction}</p>
-          <p className={styles.updated}>{copy.updatedLabel}: <time dateTime="2026-07-18">{copy.updatedDate}</time></p>
+          <p className={styles.updated}>{copy.updatedLabel}: <time dateTime="2026-07-29">{copy.updatedDate}</time></p>
         </header>
 
         <div className={styles.policy}>
@@ -42,4 +42,3 @@ export function GoalzyPrivacyScreen({ locale }: GoalzyPrivacyScreenProps) {
     </GoalzyPage>
   );
 }
-

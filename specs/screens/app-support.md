@@ -8,7 +8,11 @@ Provide App Store-compatible support information and a working contact method.
 
 - The page shows the app name, support email, expected response context, and concise FAQ.
 - Contact uses a standard `mailto:` link and requires no form or backend.
+- The support action has a descriptive label while the address remains visible and
+  selectable.
 - Users are asked to include app version, device, system version, and reproduction steps.
+- The FAQ covers choice customization, result sharing, local history management, and
+  the fact that Goalzy does not send choices to its developers or a server.
 - Marketing and privacy pages remain reachable.
 
 ## Edge Cases
@@ -25,4 +29,3 @@ Provide App Store-compatible support information and a working contact method.
 - App Review and users can find real contact information immediately.
 - The page does not collect support data itself.
 - French and English versions provide equivalent information.
-

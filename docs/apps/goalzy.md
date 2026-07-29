@@ -1,7 +1,7 @@
 # Goalzy — brief produit
 
 > Source produit consultée : dépôt Goalzy au commit
-> `d3688d697df69c20326a6d1e176044286c644918` (`main`, 18 juillet 2026).
+> `59e71c4afb02ad8b00508ce78be681bd06906c34` (`main`, 29 juillet 2026).
 
 ## Positionnement
 
@@ -15,13 +15,29 @@ rapide et accessible de départager des idées entre amis, en couple ou en famil
 ## Fonctionnement
 
 1. L’utilisateur saisit entre 2 et 8 choix.
-2. Chaque choix reçoit un nom, un emoji et une couleur automatique.
+2. Chaque choix reçoit un nom, un emoji et une couleur automatique ; l’utilisateur
+   peut ensuite choisir un autre emoji, une couleur Goalzy ou une couleur personnalisée.
 3. L’utilisateur sélectionne un mode et, si nécessaire, un réglage sportif.
 4. Une balle par choix évolue dans une arène circulaire dont les zones de score tournent.
 5. Goalzy annonce le gagnant et affiche les scores finaux.
+6. L’utilisateur peut partager une carte de résultat, lancer une revanche ou retrouver
+   la décision dans son historique local.
 
-Les choix restent disponibles pour lancer une nouvelle décision. La V1 ne comporte ni
-compte, ni historique, ni synchronisation cloud, ni partage.
+Les choix restent disponibles pour lancer une nouvelle décision. Goalzy ne comporte ni
+compte ni synchronisation cloud.
+
+### Résultats, partage et historique
+
+- Le résultat peut être exporté sous forme d’image Goalzy verticale avec trois fonds
+  au choix, puis transmis par le menu de partage natif d’iOS ou d’Android.
+- Une capture d’écran du résultat ouvre l’aperçu de partage sur iOS et Android 14 ou
+  plus récent, sans demander l’accès à la photothèque.
+- Les matchs terminés sont enregistrés uniquement sur l’appareil, dans la limite des
+  1 000 décisions les plus récentes.
+- L’historique permet de consulter, partager, rejouer ou supprimer une décision, ainsi
+  que d’effacer tout l’historique.
+- Goalzy peut proposer l’avis natif de l’App Store selon une cadence locale non
+  intrusive ; une action manuelle est aussi disponible dans les réglages sur iOS.
 
 ### Modes de jeu
 
@@ -45,6 +61,10 @@ L’app choisit la langue de l’appareil lorsqu’elle est prise en charge et p
 sélection persistante dans les réglages.
 
 ## Métadonnées App Store décidées
+
+La fiche iOS publique utilise l’identifiant Apple `6791262105` et l’URL générique
+`https://apps.apple.com/app/id6791262105`, qui laisse Apple choisir la boutique
+adaptée au visiteur.
 
 ### Identité et classement
 
@@ -160,12 +180,13 @@ elle-même en moment de jeu.
 ## Pages publiques nécessaires
 
 - **Marketing** : expliquer la promesse, le parcours, les trois modes et les univers
-  sportifs. Cette page servira d’URL marketing dans l’App Store.
+  sportifs, ainsi que la personnalisation, le partage et l’historique local. Cette
+  page sert d’URL marketing dans l’App Store.
 - **Assistance** : fournir un contact fonctionnel, une FAQ et les informations utiles
-  pour diagnostiquer un problème. Contact provisoire : `o6art7@gmail.com`.
+  pour diagnostiquer un problème. Contact : `support@arthuroswald.fr`.
 - **Confidentialité** : décrire fidèlement l’absence de collecte, de suivi, de compte,
-  de publicité et d’analytics, ainsi que le stockage local des préférences. Responsable :
-  Arthur Oswald.
+  de publicité et d’analytics, le stockage local des préférences et de l’historique,
+  ainsi que le partage déclenché par l’utilisateur.
 
 ## Éléments visuels réutilisables
 

@@ -17,7 +17,7 @@ export function GoalzyMarketingScreen({ locale }: GoalzyMarketingScreenProps) {
 
   return (
     <GoalzyPage locale={locale} pageId="marketing">
-      <MarketingHero copy={copy} splashImage={app.splashImage} />
+      <MarketingHero copy={copy} splashImage={app.splashImage} storeUrl={app.storeUrl} />
       <StepsSection copy={copy} />
       <ModesSection copy={copy} />
       <MarketingLinks app={app} locale={locale} />

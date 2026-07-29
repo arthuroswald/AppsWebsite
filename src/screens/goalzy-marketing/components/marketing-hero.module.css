@@ -56,6 +56,22 @@
   padding: 0.6rem 0.85rem;
 }
 
+.storeAction {
+  background: var(--app-action);
+  border-radius: 999px;
+  color: #fff;
+  display: inline-block;
+  font-weight: 800;
+  margin-top: 1.5rem;
+  padding: 0.85rem 1.15rem;
+  text-decoration: none;
+}
+
+.storeAction:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--app-action) 40%, transparent);
+  outline-offset: 4px;
+}
+
 .artwork {
   aspect-ratio: 853 / 1844;
   border: 0.55rem solid var(--app-text);
