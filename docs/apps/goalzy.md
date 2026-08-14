@@ -1,7 +1,7 @@
 # Goalzy — brief produit
 
 > Source produit consultée : dépôt Goalzy au commit
-> `59e71c4afb02ad8b00508ce78be681bd06906c34` (`main`, 29 juillet 2026).
+> `c88948b85b64fc8598ec26a2028d280b4d8ba53b` (`main`, 14 août 2026, version 1.3.0).
 
 ## Positionnement
 
@@ -17,8 +17,8 @@ rapide et accessible de départager des idées entre amis, en couple ou en famil
 1. L’utilisateur saisit entre 2 et 8 choix.
 2. Chaque choix reçoit un nom, un emoji et une couleur automatique ; l’utilisateur
    peut ensuite choisir un autre emoji, une couleur Goalzy ou une couleur personnalisée.
-3. L’utilisateur sélectionne un mode et, si nécessaire, un réglage sportif.
-4. Une balle par choix évolue dans une arène circulaire dont les zones de score tournent.
+3. L’utilisateur sélectionne un mode et, si nécessaire, un réglage sportif ou une discipline de combat.
+4. Une balle par choix évolue dans une arène dont les règles et les interactions dépendent du réglage choisi.
 5. Goalzy annonce le gagnant et affiche les scores finaux.
 6. L’utilisateur peut partager une carte de résultat, lancer une revanche ou retrouver
    la décision dans son historique local.
@@ -43,14 +43,19 @@ compte ni synchronisation cloud.
 
 - **But en or / Golden Goal** : le premier choix qui marque gagne immédiatement.
 - **Score gagnant / Winning Score** : le premier choix à atteindre le score cible gagne.
-  Les réglages sont le tennis (7 points), le ping-pong (11) et le volley (25).
+  Les réglages sont le tennis (7 points), le ping-pong (11), la Pétanque Arcade
+  (exactement 13) et le Beach Volley (25).
 - **Temps réglementaire / Regulation Time** : le meilleur score à la fin du temps gagne.
-  Les réglages sont le basket (40 secondes), le handball (60) et le football (90).
+  Les réglages sont le basket (40 secondes), le handball (60), le rugby (80) et le
+  football (90).
   Une égalité en tête se termine par un but en or entre les choix concernés.
+- **Combats / Combat** : la dernière option encore en jeu gagne. Les disciplines sont
+  la boxe (trois vies), le MMA (jauge de résistance) et le sumo (élimination hors du dohyo).
 
-L’arène possède sept identités : neutre, football, basket, handball, tennis,
-ping-pong et volley. Les sports modifient le rythme, les zones et l’habillage sans
-remplacer le moteur de jeu partagé.
+Goalzy propose douze expériences d’arène : but en or, football, basket, handball,
+rugby, tennis, ping-pong, Pétanque Arcade, Beach Volley, boxe, MMA et sumo. Selon le
+réglage, l’arène peut utiliser des zones de score, une cible mobile, un panier, une
+balle de rugby, des boules de pétanque ou une mécanique d’élimination physique.
 
 ## Langues
 
@@ -111,13 +116,14 @@ action decide.
 3. Pick a game mode.
 4. Watch the match and discover the winner.
 
-**THREE WAYS TO DECIDE**
+**FOUR WAYS TO DECIDE**
 
 - Golden Goal — The first choice to score wins. Fast, simple, decisive.
-- Winning Score — Choose tennis, table tennis, or volleyball. The first choice to
+- Winning Score — Choose tennis, table tennis, pétanque, or volleyball. The first choice to
   reach the target score wins.
-- Regulation Time — Choose basketball, handball, or football. The highest score at
+- Regulation Time — Choose basketball, handball, rugby, or football. The highest score at
   the end of the match wins. If the leaders are tied, Golden Goal settles it.
+- Combat — Choose boxing, MMA, or sumo. The last choice still in play wins.
 
 **FOR ALL YOUR EVERYDAY CHOICES**
 
@@ -151,13 +157,14 @@ match trancher.
 3. Sélectionnez un mode de jeu.
 4. Regardez le match et découvrez le gagnant.
 
-**TROIS FAÇONS DE DÉCIDER**
+**QUATRE FAÇONS DE DÉCIDER**
 
 - But en or — Le premier choix qui marque l’emporte. Rapide, simple et décisif.
-- Score gagnant — Choisissez le tennis, le ping-pong ou le volley. Le premier choix
+- Score gagnant — Choisissez le tennis, le ping-pong, la pétanque ou le volley. Le premier choix
   qui atteint le score cible gagne.
-- Temps réglementaire — Choisissez le basket, le handball ou le football. Le meilleur
+- Temps réglementaire — Choisissez le basket, le handball, le rugby ou le football. Le meilleur
   score à la fin du match l’emporte. En cas d’égalité en tête, un but en or tranche.
+- Combats — Choisissez la boxe, le MMA ou le sumo. Le dernier choix encore en jeu gagne.
 
 **POUR TOUS VOS CHOIX DU QUOTIDIEN**
 
@@ -179,7 +186,7 @@ elle-même en moment de jeu.
 
 ## Pages publiques nécessaires
 
-- **Marketing** : expliquer la promesse, le parcours, les trois modes et les univers
+- **Marketing** : expliquer la promesse, le parcours, les quatre modes et les univers
   sportifs, ainsi que la personnalisation, le partage et l’historique local. Cette
   page sert d’URL marketing dans l’App Store.
 - **Assistance** : fournir un contact fonctionnel, une FAQ et les informations utiles

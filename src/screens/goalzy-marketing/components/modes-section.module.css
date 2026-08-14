@@ -29,11 +29,30 @@
 
 .heading p { margin-top: 0; }
 
+.versionNotice {
+  background: color-mix(in srgb, var(--app-brand) 14%, var(--app-surface));
+  border: 1px solid color-mix(in srgb, var(--app-brand) 36%, var(--app-border));
+  border-radius: var(--radius-large);
+  margin-top: 2rem;
+  padding: 1rem 1.2rem;
+}
+
+.versionNotice strong {
+  display: block;
+  font-size: 1rem;
+}
+
+.versionNotice p {
+  color: var(--app-text-muted);
+  line-height: 1.55;
+  margin: 0.35rem 0 0;
+}
+
 .modes {
   display: grid;
   gap: 1rem;
-  grid-template-columns: repeat(3, 1fr);
-  margin-top: 2.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 1rem;
 }
 
 .modes article {

@@ -9,6 +9,10 @@ export function ModesSection({ copy }: { copy: GoalzyMarketingCopy }) {
         <h2 id="modes-title">{copy.modesHeading}</h2>
         <p>{copy.modesIntroduction}</p>
       </div>
+      <aside className={styles.versionNotice}>
+        <strong>{copy.versionHeading}</strong>
+        <p>{copy.versionNotice}</p>
+      </aside>
       <div className={styles.modes}>
         {copy.modes.map((mode) => (
           <article key={mode.title}>
@@ -20,4 +24,3 @@ export function ModesSection({ copy }: { copy: GoalzyMarketingCopy }) {
     </section>
   );
 }
-

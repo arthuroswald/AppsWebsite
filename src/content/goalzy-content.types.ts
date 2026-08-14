@@ -20,6 +20,8 @@ export type GoalzyMarketingCopy = MetadataCopy & {
   steps: readonly ContentItem[];
   modesHeading: string;
   modesIntroduction: string;
+  versionHeading: string;
+  versionNotice: string;
   modes: readonly ContentItem[];
   sportsHeading: string;
   sports: readonly string[];
